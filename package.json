@@ -4,19 +4,12 @@
   "description": ":hearth: Huge inspiration form https://github.com/prismicio/prismic-client/tree/master/.github",
   "main": "src/index.js",
   "scripts": {
-    "size": "size-limit",
     "test": "echo \"no test specified\" && exit 0",
     "lint": "echo \"no lint specified\" && exit 0",
     "unit": "echo \"no unit specified\" && exit 0",
     "build": "echo \"no build specified\" && exit 0",
     "generate:licence": "license-generator install mit -y 2023 -n \"Florent Giraud\""
   },
-  "size-limit": [
-  {
-    "limit": "35 kB",
-      "path": "src/*.js"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flozero/github-utils.git"
@@ -32,7 +25,5 @@
     "license-generator": "^0.0.13"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^8.1.2",
-    "size-limit": "^8.1.2"
   }
 }

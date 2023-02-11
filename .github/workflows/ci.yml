@@ -47,8 +47,3 @@ jobs:
       - name: Coverage
         if: matrix.os == 'ubuntu-latest' && matrix.node == 18
         uses: codecov/codecov-action@v1
-
-      - name: Size
-        uses: andresz1/size-limit-action@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
