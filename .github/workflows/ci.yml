@@ -49,7 +49,6 @@ jobs:
         uses: codecov/codecov-action@v1
 
       - name: Size
-        if: github.event_name == 'pull_request' && matrix.os == 'ubuntu-latest' && matrix.node == 18
         uses: andresz1/size-limit-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
