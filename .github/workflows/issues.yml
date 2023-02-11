@@ -7,7 +7,6 @@ on:
 
 jobs:
   issues:
-    if: github.event.issue.author_association == 'NONE'
     runs-on: ubuntu-latest
 
     steps:
